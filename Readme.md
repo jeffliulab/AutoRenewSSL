@@ -1,3 +1,5 @@
+[NOT FINISHED YET]【还未完成】
+
 Keywords: Godaddy, Letsencrypt, SSL
 Environment: Cpanel，Linux, .acme.sh
 This project is help those who use Godaddy to create a letsencrypt SSL. Let's Encrypt recommends generating your certificate through Certbot but this is not supported on GoDaddy's cPanel Linux hosting. 
