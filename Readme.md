@@ -1,5 +1,7 @@
 [NOT FINISHED YET]【还未完成】
 
+项目的目的：录入网站的关键信息后，可以实现脚本一键完成SSL登录。（使用免费的openssl）
+
 Keywords: Godaddy, Letsencrypt, SSL
 Environment: Cpanel，Linux, .acme.sh
 This project is help those who use Godaddy to create a letsencrypt SSL. Let's Encrypt recommends generating your certificate through Certbot but this is not supported on GoDaddy's cPanel Linux hosting. 
