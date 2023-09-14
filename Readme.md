@@ -9,8 +9,8 @@ T
 his project is help those who use Godaddy to create a letsencrypt SSL. Let's Encrypt recommends generating your certificate through Certbot but this is not supported on GoDaddy's cPanel Linux hosting. 
 
 在摸索了一天后，终于手工部署好了SSL，现在总结一下手动过程：
-1· 在cpanel中设置ssh连接
-2· 使用mac的terminal，进行ssh连接，访问服务器
+1. 在cpanel中设置ssh连接
+2. 使用mac的terminal，进行ssh连接，访问服务器
 3· 安装acme.sh
 4.输入指令：acme.sh --issue -d 网址 --webroot /home/用户名/public_html/ --server letsencrypt
 5.安装好后，使用ftp工具访问网站的目录，找到cer文件
